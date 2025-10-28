@@ -2,8 +2,8 @@ pipeline {
     agent any 
 
     environment {
-        DOCKER_CREDENTIALS_ID = 'roseaw-dockerhub'  
-        DOCKER_IMAGE = 'liz227/lab3'                               //<-----change this to your MiamiID!
+        DOCKER_CREDENTIALS_ID = 'liz227-dockerhub'  
+        DOCKER_IMAGE = 'cithit/lab3'                               //<-----change this to your MiamiID!
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/lzm235/225-lab3-9.git' //<-----change this to match this new repository!
         KUBECONFIG = credentials('liz227-225')                           //<-----change this to match your kubernetes credentials (MiamiID-225)! 
