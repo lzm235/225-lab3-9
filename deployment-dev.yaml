@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: flask
-          image: cithit/liz227:latest #<-----change this!!!!
+          image: liz227/lab3:latest #<-----change this!!!!
           ports:
             - containerPort: 5000
 
